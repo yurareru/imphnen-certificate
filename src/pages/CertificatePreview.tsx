@@ -6,13 +6,7 @@ import { Button } from '@/components/ui/button';
 import certificateBackground from '../assets/sertimvikat.png';
 
 const getFormattedDate = (): string => {
-  const now = new Date();
-
-  const day = now.getDate();
-  const month = now.toLocaleString('default', { month: 'long' });
-  const year = now.getFullYear();
-
-  return `${day} ${month} ${year}`;
+  return '10 September 2024';
 };
 
 export default function CertificatePreview() {
